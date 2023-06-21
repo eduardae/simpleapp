@@ -1,5 +1,5 @@
  syntax = "proto3";
- package simpleapp.service.v1";
+ package simpleapp.service.v1;
  option go_package = "github.com/eduardae/simpleapp/gen/go/your/service/v1";
 
 message LoginUserRequest {
@@ -27,7 +27,6 @@ message getInfoRequest {
 message getInfoResponse {
   string message = 1;
 }
-
 
 
 service SimpleApp {
